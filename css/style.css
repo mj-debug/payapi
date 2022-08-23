@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "NotoSans-Regular.ttf";
+    src: url(../fonts/Noto-Sans/NotoSans-Regular.ttf);
+}
+body{
+    background-color: rgb(238, 243, 249);
+    font-family: "NotoSans-Regular.ttf";
+}
+/* Nav bar Section begins */
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+.nav-bar > .nav-bar-1{
+    margin-left: 15em;
+}
+.nav-bar > .nav-bar-1 > .logo-1{
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(71, 93, 114);
+}
+.nav-bar > .nav-bar-1 > .logo-2{
+    font-size: 3em;
+    color: rgb(131, 144, 152)
+}
+.nav-bar > .nav-bar-2 > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.8em;
+    margin-right: 20em;
+}
+.nav-bar > .nav-bar-2 > ul > li{
+    outline: none;
+    margin-right: 5em;
+    list-style-type: none;
+    color: rgb(125, 138, 147);
+}
+.nav-bar > .nav-bar-2 > ul > li > a{
+    font-weight: 700;
+    color: rgb(138, 149, 159);
+    text-decoration: none;
+}
+.nav-bar > .nav-bar-3 > a > button{
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 30px;
+    margin-top: 1em;
+    margin-right: 10em;
+    color: rgb(253, 212, 234);
+    background-color: rgb(186, 67, 113);
+}
+/* Nav bar Section ends */
+/* Hero Section begins */
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hero > .hero-1{
+    margin-left: 15em;
+}
+.hero > .hero-1 > h1{
+    font-size: 4em;
+    color: rgb(50, 74, 95);
+}
+.hero > .hero-1 > input{
+    padding: 1em 5em;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    color: rgb(251, 252, 254);
+}
+.hero > .hero-1 > a > button{
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.7em 2em;
+    border-radius: 30px;
+    margin-left: -2em;
+    color: rgb(253, 212, 234);
+    background-color: rgb(186, 67, 113);
+}
+.hero > .hero-2 > img{
+    margin-right: 10em;
+}
+/* Hero Section ends */
